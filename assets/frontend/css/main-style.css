@@ -1,40 +1,97 @@
-html, body, div, span, object, iframe,
+html,
+body,
+div,
+span,
+object,
+iframe,
 
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
 
-abbr, address, cite, code,
+abbr,
+address,
+cite,
+code,
 
-del, dfn, em, img, ins, kbd, q, samp,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
 
-small, strong, sub, sup, var,
+small,
+strong,
+sub,
+sup,
+var,
 
-b, i,
+b,
+i,
 
-dl, dt, dd, ol, ul, li,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
 
-fieldset, form, label, legend,
+fieldset,
+form,
+label,
+legend,
 
-table, caption, tbody, tfoot, thead, tr, th, td,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
 
-article, aside, canvas, details, figcaption, figure, 
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
 
-footer, header, hgroup, menu, nav, section, summary,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
 
-time, mark, audio, video {
+time,
+mark,
+audio,
+video {
 
-    margin:0;
+    margin: 0;
 
-    padding:0;
+    padding: 0;
 
-    border:0;
+    border: 0;
 
-    outline:0;
+    outline: 0;
 
-    font-size:100%;
+    font-size: 100%;
 
-    vertical-align:baseline;
+    vertical-align: baseline;
 
-    background:transparent;
+    background: transparent;
 
     line-height: inherit;
 
@@ -59,11 +116,20 @@ body {
 
 
 
-article,aside,details,figcaption,figure,
+article,
+aside,
+details,
+figcaption,
+figure,
 
-footer,header,hgroup,menu,nav,section { 
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 
-    display:block;
+    display: block;
 
 }
 
@@ -71,27 +137,30 @@ footer,header,hgroup,menu,nav,section {
 
 nav ul {
 
-    list-style:none;
+    list-style: none;
 
 }
 
 
 
-blockquote, q {
+blockquote,
+q {
 
-    quotes:none;
+    quotes: none;
 
 }
 
 
 
-blockquote:before, blockquote:after,
+blockquote:before,
+blockquote:after,
 
-q:before, q:after {
+q:before,
+q:after {
 
-    content:'';
+    content: '';
 
-    content:none;
+    content: none;
 
 }
 
@@ -99,38 +168,38 @@ q:before, q:after {
 
 a {
 
-    margin:0;
+    margin: 0;
 
-    padding:0;
+    padding: 0;
 
-    font-size:100%;
+    font-size: 100%;
 
-    vertical-align:baseline;
+    vertical-align: baseline;
 
-    background:transparent;
+    background: transparent;
 
 }
 
 ins {
 
-    background-color:#ff9;
+    background-color: #ff9;
 
-    color:#000;
+    color: #000;
 
-    text-decoration:none;
+    text-decoration: none;
 
 }
 
 
 mark {
 
-    background-color:#ff9;
+    background-color: #ff9;
 
-    color:#000; 
+    color: #000;
 
-    font-style:italic;
+    font-style: italic;
 
-    font-weight:bold;
+    font-weight: bold;
 
 }
 
@@ -144,11 +213,12 @@ del {
 
 
 
-abbr[title], dfn[title] {
+abbr[title],
+dfn[title] {
 
-    border-bottom:1px dotted;
+    border-bottom: 1px dotted;
 
-    cursor:help;
+    cursor: help;
 
 }
 
@@ -156,78 +226,133 @@ abbr[title], dfn[title] {
 
 table {
 
-    border-collapse:collapse;
+    border-collapse: collapse;
 
-    border-spacing:0;
+    border-spacing: 0;
 
 }
 
 
 hr {
 
-    display:block;
+    display: block;
 
-    height:1px;
+    height: 1px;
 
-    border:0;   
+    border: 0;
 
-    border-top:1px solid #cccccc;
+    border-top: 1px solid #cccccc;
 
-    margin:1em 0;
+    margin: 1em 0;
 
-    padding:0;
-
-}
-
-
-
-input, select {
-
-    vertical-align:middle;
+    padding: 0;
 
 }
 
 
 
-a, a:hover, a:focus, a:active{text-decoration: none;color: inherit;outline: none;}
+input,
+select {
 
-ol, ul, li{padding: 0;list-style: none;margin: 0;}
+    vertical-align: middle;
 
-label{font-weight: normal;}
+}
 
-input[type="text"], input[type="email"], input[type="password"]{padding-left: 12px;padding-right: 12px;}
 
-select{padding-left: 5px;padding-right: 8px;}
 
-input[type="number"]{padding-left: 5px;}
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+}
 
-textarea{padding:5px 12px;}
+ol,
+ul,
+li {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
 
-input, textarea, select, button, a{outline: none;}
+label {
+    font-weight: normal;
+}
 
-button{border: none;padding: 0;}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding-left: 12px;
+    padding-right: 12px;
+}
 
-b, strong, th {
+select {
+    padding-left: 5px;
+    padding-right: 8px;
+}
+
+input[type="number"] {
+    padding-left: 5px;
+}
+
+textarea {
+    padding: 5px 12px;
+}
+
+input,
+textarea,
+select,
+button,
+a {
+    outline: none;
+}
+
+button {
+    border: none;
+    padding: 0;
+}
+
+b,
+strong,
+th {
     font-weight: bold;
 }
 
-i, em {
+i,
+em {
     font-style: italic;
 }
 
-sub, sup {
+sub,
+sup {
     font-size: 75%;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
     display: block;
 }
 
-blockquote, q {
+blockquote,
+q {
     quotes: none;
 }
 
-blockquote:before, blockquote:after, q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
     content: "";
     content: none;
 }
@@ -244,7 +369,8 @@ del {
     text-decoration: line-through;
 }
 
-abbr[title], dfn[title] {
+abbr[title],
+dfn[title] {
     border-bottom: 1px dotted;
     cursor: help;
 }
@@ -263,17 +389,23 @@ hr {
     padding: 0;
 }
 
-input, select {
+input,
+select {
     vertical-align: middle;
 }
 
-a, a:hover, a:focus, a:active {
+a,
+a:hover,
+a:focus,
+a:active {
     text-decoration: none;
     color: inherit;
     outline: none;
 }
 
-ol, ul, li {
+ol,
+ul,
+li {
     padding: 0;
     list-style: none;
     margin: 0;
@@ -283,7 +415,9 @@ label {
     font-weight: normal;
 }
 
-input[type=text], input[type=email], input[type=password] {
+input[type=text],
+input[type=email],
+input[type=password] {
     padding-left: 12px;
     padding-right: 12px;
 }
@@ -294,15 +428,19 @@ select {
 
 .quantity_cart input[type=number]::-webkit-outer-spin-button,
 .quantity_cart input[type=number]::-webkit-inner-spin-button {
-    -webkit-appearance:none;
-    margin:0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 textarea {
     padding: 8px 12px 5px 12px;
 }
 
-input, textarea, select, button, a {
+input,
+textarea,
+select,
+button,
+a {
     outline: none;
 }
 
@@ -312,7 +450,10 @@ button {
     padding: 0;
 }
 
-button:focus, button:active, a:focus, a:active {
+button:focus,
+button:active,
+a:focus,
+a:active {
     border: none;
     border-color: transparent;
     outline: none;
@@ -325,22 +466,78 @@ button:focus, button:active, a:focus, a:active {
     padding-top: constant(safe-area-inset-top);
 }
 
-input::-webkit-input-placeholder {
-  font-size: 0.8125rem;
-  color: rgba(0, 0, 0, 0.5); }
 
-input:-ms-input-placeholder {
-  font-size: 0.8125rem;
-  color: rgba(0, 0, 0, 0.5); }
+.box-topic-multiple-choice {
+    position: relative;
+    margin: 50px 0;
+    padding: 30px 0;
+}
 
-input::placeholder {
-  font-size: 0.8125rem;
-  color: rgba(0, 0, 0, 0.5); }
+.box-topic-multiple-choice .divider {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #000;
+    transform: translateX(-50%);
+}
+
+.box-topic-multiple-choice .circle-number {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f57c00;
+    color: #fff;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.box-topic-multiple-choice img {
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+.box-topic-multiple-choice p {
+    line-height: 1.6;
+}
 
 
+/* css tạo hình ảnh 3d */
+.img-card {
+    perspective: 1000px;
+    display: inline-block;
+}
 
+.img-card img {
+    width: 100%;
+    border-radius: 15px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
 
+.img-card:hover img {
+    transform: rotateY(15deg) rotateX(10deg) scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
 
+.img-card {
+  width: 100%;
+  height: 250px; 
+  overflow: hidden;
+  border-radius: 12px;
+}
 
-
-
+.img-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  display: block;
+}
